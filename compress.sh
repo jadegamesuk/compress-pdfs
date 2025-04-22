@@ -2,6 +2,7 @@
 
 OIFS="$IFS"
 IFS=$'\n'
+
 for INPUTPDF in `find * -type f -name "*.pdf"`  
 do
     echo "Processing file: $INPUTPDF"
